@@ -1,0 +1,93 @@
+/* NOTE If the gap not showing in the bottom of each boxes just refresh it will show the spacing. */
+
+/* Main-Heading */
+h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 33px;
+  padding-bottom: 20px;
+}
+
+/* Body-Spacing-Top-Bottom */
+.masnory-boxes {
+  margin: 60px 0px 30px 0px;
+}
+
+/* Box-Layout */
+
+.single-boxes {
+  box-sizing: border-box;
+  width: 30%;
+  float: left;
+  background-color: #f3f3f3;
+  text-align: center;
+  margin-left: 30px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 17px;
+  margin-bottom: 30px;
+}
+
+/* Box-Internal-Content */
+
+.single-boxes img {
+  border-radius: 50px;
+}
+
+.patient {
+  padding: 0px;
+}
+
+.single-boxes h3 {
+  margin: 5px !important;
+}
+
+.single-boxes h5 {
+  margin: 5px !important;
+  font-weight: 600;
+}
+
+.checked {
+  color: #e12555;
+}
+
+.single-boxes img {
+  width: 70px;
+}
+
+/* Testimonials-Boxes-Responsive */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .single-boxes {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+/* Testimonials-Boxes-Responsive */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .single-boxes {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 1px) {
+  .single-boxes {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 9px;
+  }
+  .single-boxes h3 {
+    margin: 5px !important;
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  .single-boxes img {
+    width: 40px;
+  }
+  .single-boxes h5 {
+    font-size: 10px;
+  }
+}
